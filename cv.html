@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My CV</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="cv.css" >
+
+
+
+</head>
+<body>
+	<header>
+		<h1>Andrew Kennedy</h1>
+		<h2>Economist</h2>
+        <img src="https://randomuser.me/api/portraits/men/61.jpg" alt="Mi foto"
+	    <p>Contact Information: andrew.kennedy@gmail.com, (984)388-7416, 7172 N Stelling Rd</p>
+	</header>
+	
+	<main>
+        <div class="resume">
+            <h2>Short Resume</h2>
+            <p>High-performing Economist with a ten-year background in data collection assignments, evaluation of financial markets, and forecasting market trends for government agencies. Strong communicator, detailed analyst, and effective multitasker with a proven ability to succeed in the energy industry. Looking to advance my career in a challenging, growth-oriented position at RedTech Co.</p>
+          </div>
+		<section id="education">
+			<h2>Education</h2>
+			<ul>
+                <li>Master’s Degree in Economics
+                    Auburn University
+                    2013</li>
+                <button type="button" onclick="toggleSection('educacion-details1')">Mostrar más detalles</button>
+                <div id="educacion-details1" style="display: none;">
+                    <p> Intended Major: Managing Organizations, Marketing and Operations. Club Involvement & Leadership Positions: Consulting Club, K Latam Club, Soccer Club, Director of Community 
+                        Engagement for Hispanic Management Association 
+                        </p>
+                </div>
+                
+                <li>Bachelor’s Degree in Finance
+                    Georgetown University
+                    2011</li>
+                <button type="button" onclick="toggleSection('educacion-details2')">Mostrar más detalles</button>
+                <div id="educacion-details2" style="display: none;">
+                    <p>Interned at Logistic Group during school year: developed e-commerce pricing strategy using statistical regression. Interned at AB InBev during school year: evaluated investment case for introduction of 40+ merchants in format retail stores  </p>
+                </div>
+			</ul>
+		</section>
+		
+		<section id="work-experience">
+			<h2>Work Experience</h2>
+			<ul>
+				<li>ILRI
+                    Senior Economist
+                    June 2016-Date</li>
+                <button type="button" onclick="toggleSection('work-details1')">Mostrar más detalles</button>
+                <div id="work-details1" style="display: none;">
+                    <p>Analyzed economic trends and research reports and advised senior management on all economic issues relating to the company.
+                        Used econometric modeling for advanced statistical analysis before deciding to undertake a specific project.
+                        Contributed to the company’s journal and provided insight on the best research techniques and emerging economic trends.</p>
+                </div>
+                
+				<li>REGAL
+                    Junior Economist
+                    March 2014-May 2016</li>
+                <button type="button" onclick="toggleSection('work-details2')">Mostrar más detalles</button>
+                <div id="work-details2" style="display: none;">
+                    <p>Conducted statistical analysis of financial data and prepared economic reports for company management, and internal and external stakeholders.
+                        Applied specialized knowledge to analyze large economic data sets before taking on big economic development projects.
+                        Assisted the team on all research projects and performed an economic analysis after data collection.</p>
+                </div>
+		</section>
+
+		<section>
+			<h2>Skills</h2>
+			<ul>
+				<li>Qualitative analysis</li>
+				<li>Interpersonal skills</li>
+				<li>Data analysis</li>
+			</ul>
+		</section>
+	</main>
+
+
+    <script src="cv.js"></script>
+</body>
+</html>
