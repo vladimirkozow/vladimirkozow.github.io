@@ -154,13 +154,26 @@
   touch-action: manipulation;
 }
 
+@media (max-width: 600px) {
 .resume {
-  position: absolute;
-  top: 180px;
+  position: auto;
+  top: 0;
   left: 0;
   bottom: 0;
   width: 15%;
   height: 100%;
   padding: 20px;
 }
+}
 
+@media (min-width: 601px) {
+  .resume {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: 100%;
+    padding: 20px;
+  }
+  }
