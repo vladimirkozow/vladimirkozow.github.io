@@ -1,1 +1,0 @@
-# vladimirkozow.github.io
